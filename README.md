@@ -106,7 +106,6 @@ Proxies: São intermediários entre cliente e servidor que encaminham requisiç�
 - Reverse Proxy: Servidor usa para balancear carga, cache ou segurança; esconde o IP do servidor.
 
 - DNS Proxy: Encaminha consultas DNS para outro servidor, melhorando performance via cache. 
-
 - Funcionam interceptando requisições, processando (ex: caching) e encaminhando, com usos em privacidade, otimização e segurança
 - Diferenças entre HTTP e HTTPS.
 - Segurança: HTTP transmite dados em texto plano, vulnerável a interceptações; HTTPS usa TLS/SSL para criptografar, protegendo contra eavesdropping e man-in-the-middle. 
@@ -276,21 +275,14 @@ São métodos que indicam a ação que o cliente quer realizar no servidor.
 
 ## Principais Tags do HTML e Seletores do CSS
 
--	<h1> a <h6>: Títulos.
-
--	<p>: Parágrafo.
-
--	<a>: Link.
-
--	<img>: Imagem.
-
--	<div>: Divisão genérica, usado para agrupar elementos.
-
--	<span>: Usado para agrupar elementos em linha.
-
--	<ul>, <ol>, <li>: Listas não ordenadas e ordenadas.
-
--	<header>, <nav>, <main>, <footer>: Elementos semânticos que ajudam a estruturar a página.
+- `<h1>` a `<h6>`: Títulos.  
+- `<p>`: Parágrafo.  
+- `<a>`: Link.  
+- `<img>`: Imagem.  
+- `<div>`: Divisão genérica, usado para agrupar elementos.  
+- `<span>`: Usado para agrupar elementos em linha.  
+- `<ul>`, `<ol>`, `<li>`: Listas não ordenadas e ordenadas.  
+- `<header>`, `<nav>`, `<main>`, `<footer>`: Elementos semânticos que ajudam a estruturar a página.
 
 ### Seletores do CSS
 
